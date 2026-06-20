@@ -1,0 +1,31 @@
+ParkSense — Voiceover Script (read at a calm, confident pace ~140 wpm)
+
+[1] HOOK
+Every day, Bengaluru loses thousands of hours to traffic. And one big, invisible reason is parking. A few cars in the wrong place can turn a six-lane road into a crawl. So I built ParkSense.
+
+[2] THE PROBLEM
+Here's the problem. Near markets, metro stations, and event venues, people park illegally or double-park. That squeezes traffic into fewer lanes and creates jams. Today, enforcement teams patrol almost blindly. They don't have a live map showing which spots are actually hurting traffic the most. And when every zone looks equally bad, it's impossible to know where to send a patrol first. So the worst jams keep coming back, day after day.
+
+[3] THE INSIGHT
+My approach started with one simple insight: not every wrongly parked car matters the same. A car blocking a main road at six PM is a serious problem. The same car on a quiet street at midnight is not. So instead of just counting cars, I measure how much each spot is actually hurting traffic flow. That single idea became the heart of ParkSense.
+
+[4] SOLUTION OVERVIEW
+This is the ParkSense dashboard. On the left, a live map of Bengaluru shows parking hotspots as a heatmap. Red means act now, amber means keep an eye on it, and green means it's calm. On the right, every zone is ranked in a priority queue, so an officer instantly knows where to go first.
+
+[5] THE SCORE
+Each hotspot gets a Congestion Impact Score, from zero to one hundred. It's built from five things: how many cars are parked illegally, the time of day, how important the road is, the risk of the jam spilling into junctions, and the history of repeat offenders. Together, these give one honest number for how badly a spot is hurting traffic.
+
+[6] SITUATION REPORT
+Let me click on our top red zone. Instantly, ParkSense gives a plain-English situation report. It explains what's happening here, and which patrol to send. No jargon, no guesswork. Just a clear recommendation an officer can act on right away.
+
+[7] TRANSPARENCY
+And this isn't a black box. I can click show raw payload, and see the exact breakdown behind every score. Judges, officers, and engineers can all check how a number was reached. Everything is explainable.
+
+[8] REACTS TO TIME
+Now watch what happens when I move the time slider. At six PM, the city lights up red. But at midnight, most zones turn green. The model isn't just always red. It follows real demand, hour by hour.
+
+[9] CLOSE THE LOOP
+And here's the best part. With one click, I can dispatch a patrol. ParkSense updates the priority, and even estimates the commuter-minutes we just saved. That closes the gap between spotting a problem and actually fixing it.
+
+[10] TECH AND OUTRO
+Under the hood, it's a Python and FastAPI engine computing the scores live, with a React and Leaflet dashboard. The data is reproducible, and the briefings come from a clear rule engine, so the results are explainable every single time. That's ParkSense. Turning everyday parking data into smart, targeted enforcement. Thanks for watching.

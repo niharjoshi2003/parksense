@@ -1,0 +1,13 @@
+# Render Blueprint — deploys the ParkSense FastAPI backend (with WebSockets).
+# In Render: New + > Blueprint > pick your repo. This file is auto-detected.
+services:
+  - type: web
+    name: parksense-backend
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.6"

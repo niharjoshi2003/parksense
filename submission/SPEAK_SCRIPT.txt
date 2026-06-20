@@ -1,0 +1,116 @@
+============================================================
+ ParkSense - what to say (natural, crisp)
+============================================================
+Just talk, don't read. Short lines, small pauses. The
+timecodes match the video so you stay roughly in sync -
+but if you go a few seconds over, that's totally fine.
+
+>> Fill in the [ ] blanks below with your own details. <<
+Tip: record the INTRO on camera (your face), then switch
+to the screen recording from the HOOK onwards.
+
+------------------------------------------------------------
+[INTRO - on camera, ~15-20s]  (before the video starts)
+------------------------------------------------------------
+Hey everyone, I'm [your name].
+I'm a [student / developer] from [your city / college],
+and this is my project for [hackathon name].
+I built this because I [see this problem every day / got
+stuck in these jams myself] - and I felt the data to fix it
+already exists, we just don't use it. So I made ParkSense.
+
+------------------------------------------------------------
+[0:00 - 0:15]  HOOK  (title card)
+------------------------------------------------------------
+So here's the thing.
+Our cities lose so much time to traffic every day.
+And honestly, a big reason nobody talks about is parking.
+A few cars in the wrong spot can jam a whole road.
+That's exactly what ParkSense fixes.
+
+------------------------------------------------------------
+[0:15 - 0:45]  THE PROBLEM  (problem card)
+------------------------------------------------------------
+Here's the problem.
+Near markets, metros, and event areas, people park wherever -
+and that chokes traffic into fewer lanes.
+Right now, enforcement teams are basically guessing.
+There's no live map showing which spots actually hurt the most.
+So the same jams keep coming back, every single day.
+
+------------------------------------------------------------
+[0:45 - 1:10]  WHY WE BUILT IT  (insight card)
+------------------------------------------------------------
+And this is the idea that got me started.
+Not every wrongly parked car is the same.
+A car on a busy road at 6 PM? Big deal.
+The same car on a quiet street at midnight? Not really.
+So instead of counting cars, we measure the actual impact
+on traffic. That's the whole heart of ParkSense.
+
+------------------------------------------------------------
+[1:10 - 1:35]  WHAT WE BUILT  (live dashboard)
+------------------------------------------------------------
+So this is the dashboard.
+On the left, a live map of the city's parking hotspots.
+Red means act now, amber means watch it, green means it's fine.
+On the right, every zone is ranked -
+so you instantly know where to go first.
+
+------------------------------------------------------------
+[1:35 - 2:05]  THE SCORE  (live dashboard)
+------------------------------------------------------------
+Each hotspot gets a Congestion Impact Score, zero to a hundred.
+It looks at how many cars are parked illegally,
+the time of day, how important the road is,
+the risk of spilling into junctions,
+and repeat offenders.
+One honest number for how bad a spot really is.
+
+------------------------------------------------------------
+[2:05 - 2:30]  SITUATION REPORT  (click top zone)
+------------------------------------------------------------
+Let me click our top red zone.
+And right away, it gives a plain-English report -
+what's happening, how bad it is, which patrol to send.
+No jargon. Just a clear next step.
+
+------------------------------------------------------------
+[2:30 - 2:50]  TRANSPARENCY  (show raw payload)
+------------------------------------------------------------
+And it's not a black box.
+One click - "show raw payload" - and you see
+exactly how every score was calculated.
+Fully explainable.
+
+------------------------------------------------------------
+[2:50 - 3:20]  IT REACTS  (time slider)
+------------------------------------------------------------
+Now watch this - I'll move the time slider.
+At 6 PM, the whole city goes red.
+But move to midnight... and most zones turn green.
+So it's not "always red" - it follows real demand,
+hour by hour. That's what makes it trustworthy.
+
+------------------------------------------------------------
+[3:20 - 3:45]  DISPATCH  (dispatch)
+------------------------------------------------------------
+And this is my favourite part.
+One click, and I dispatch a patrol.
+It updates the priority and even estimates
+the commuter-minutes we just saved.
+That's the gap between spotting a problem and fixing it.
+
+------------------------------------------------------------
+[3:45 - 4:15]  WRAP UP  (outro card)
+------------------------------------------------------------
+Under the hood it's Python and FastAPI doing the scoring,
+with a React and Leaflet dashboard.
+Everything's reproducible and explainable.
+That's ParkSense - turning everyday parking data
+into smart enforcement, at the right place and time.
+I'm [your name] - thanks so much for watching.
+
+============================================================
+ ~360 words + intro - comfortable for ~4-4:30 with pauses.
+============================================================
